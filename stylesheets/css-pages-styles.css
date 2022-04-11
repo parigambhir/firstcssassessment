@@ -1,3 +1,28 @@
 header {
-  background-color: blueviolet;
+  background-color: #a570d6;
+}
+h1 {
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+}
+.nav-link {
+  padding: 5px;
+  margin: 0px;
+  background-color: #684b83;
+  color: aliceblue;
+}
+.nav-link li {
+  display: inline-block;
+}
+.nav-link:hover {
+  background: green;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  padding: 5px;
+  font-size: 20px;
 }
