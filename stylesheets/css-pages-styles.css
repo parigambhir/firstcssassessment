@@ -19,6 +19,7 @@ h1 {
   padding: 10px;
   margin: 0px;
   background-color: #381f3d;
+  color: white;
 }
 .nav-link li {
   margin: 0px;
@@ -27,9 +28,9 @@ h1 {
 }
 ul {
   padding: 10px;
+  margin: 2px;
   background-color: #381f3d;
   list-style-type: none;
-  overflow: hidden;
 }
 .nav-link:hover {
   background: #190d1b;
