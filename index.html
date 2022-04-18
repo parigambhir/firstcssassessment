@@ -18,10 +18,12 @@
       h2 {
         text-align: center;
       }
+      /* an ID that centers the introduction paragraph and makes it bigger*/
       #intro-p {
         font-size: 18px;
         text-align: center;
       }
+      /*Allows for there to be 3 collumns side by side (#row ID is what actually makes the divs go side by side) and then styling for the columns*/
       .column {
         float: left;
         width: 30%;
@@ -32,11 +34,13 @@
         border-color: #381f3d;
         text-align: center;
       }
+      /* Clear floats after the columns which allow them to be side by side*/
       #row:after {
         content: "";
         display: table;
         clear: both;
       }
+      /* mostly text decoration for the buttons any any other words*/
       span {
         text-decoration: bold;
         color: #381f3d;
@@ -49,7 +53,6 @@
       <h1>Shaanze Noor</h1>
       <nav>
         <ul>
-          <!---->
           <a href="index.html" class="nav-link"><li>Home</li></a>
           <a href="" class="nav-link"><li>Music</li></a>
           <a href="" class="nav-link"><li>Fashion</li></a>
@@ -76,6 +79,8 @@
           </figcaption>
         </figure>
       </section>
+      <br />
+      <br />
       <section id="row">
         <h2>Shaanzes Hobbies</h2>
         <div class="column">
@@ -109,8 +114,11 @@
           </button>
         </div>
       </section>
+      <br />
+      <br />
     </main>
     <footer>
+      <!--The brackets are something the client requested me to do or I would't be allowed to make a website for them-->
       <p>Shaanzes official (official) website (website)</p>
       <p>Made by Pari</p>
     </footer>

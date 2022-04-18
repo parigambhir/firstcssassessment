@@ -1,14 +1,17 @@
+/*simple body styling*/
 body {
   margin: 0px;
   background-color: #000000;
   color: #e2e7e2;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+/*styling and what makes the header take up all the screen width*/
 header {
   background-color: #381f3d;
   width: 100%;
   color: #e2e7e2;
 }
+/*styling for the footer and so it takes up the full screen width*/
 footer {
   background-color: #381f3d;
   width: 100%;
@@ -17,6 +20,7 @@ footer {
   text-align: center;
   color: #e2e7e2;
 }
+/*styles the navigation elements*/
 .nav-link {
   padding: 10px;
   margin: 0px;
@@ -24,20 +28,24 @@ footer {
   background-color: #241427;
   color: #e2e7e2;
 }
+/*displays the li elements in the anchor tags to be inline blocks so they sit beside each other in the nav bar*/
 .nav-link li {
   margin: 9px;
   display: inline-block;
 }
+/*allows the element to change colours when the user hovers over it*/
 .nav-link:hover {
   background: #e2e7e2;
   color: #100811;
 }
+/*exra styling for the main header*/
 h1 {
   font-size: 40px;
   padding: 20px;
   margin: 0;
   text-align: center;
 }
+/* styles the background of the nav bar and makes the list stle none so there are no bullet points*/
 ul {
   padding: 2px;
   background-color: #241427;
