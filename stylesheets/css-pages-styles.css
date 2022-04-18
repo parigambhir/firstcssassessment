@@ -1,3 +1,9 @@
+body {
+  margin: 0px;
+  background-color: #000000;
+  color: #e2e7e2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 header {
   background-color: #381f3d;
   width: 100%;
@@ -7,34 +13,33 @@ footer {
   background-color: #381f3d;
   width: 100%;
   padding: 8 px;
+  margin: 0px;
   text-align: center;
   color: #e2e7e2;
-}
-h1 {
-  font-size: 40px;
-  padding: 20px;
-  text-align: center;
 }
 .nav-link {
   padding: 10px;
   margin: 0px;
-  background-color: #381f3d;
-  color: white;
+  font-size: 18px;
+  background-color: #241427;
+  color: #e2e7e2;
 }
 .nav-link li {
-  margin: 0px;
-  font-size: 20px;
+  margin: 9px;
   display: inline-block;
 }
-ul {
-  padding: 10px;
-  margin: 2px;
-  background-color: #381f3d;
-  list-style-type: none;
-}
 .nav-link:hover {
-  background: #190d1b;
-}
-body {
   background: #e2e7e2;
+  color: #100811;
+}
+h1 {
+  font-size: 40px;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+ul {
+  padding: 2px;
+  background-color: #241427;
+  list-style-type: none;
 }
