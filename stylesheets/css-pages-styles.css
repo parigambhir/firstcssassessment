@@ -1,8 +1,9 @@
 /*simple body styling*/
 body {
   margin: 0px;
-  background-color: #000000;
+  background-color: #f3efd6;
   color: #e2e7e2;
+  font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 /*styling and what makes the header take up all the screen width*/
