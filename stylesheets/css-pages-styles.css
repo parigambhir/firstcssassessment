@@ -2,24 +2,24 @@
 body {
   margin: 0px;
   background-color: #f3efd6;
-  color: #e2e7e2;
+  color: #271e0d;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 /*styling and what makes the header take up all the screen width*/
 header {
-  background-color: #381f3d;
+  background-color: #432739;
   width: 100%;
-  color: #e2e7e2;
+  color: #f3efd6;
 }
 /*styling for the footer and so it takes up the full screen width*/
 footer {
-  background-color: #381f3d;
+  background-color: #432739;
   width: 100%;
   padding: 8 px;
   margin: 0px;
   text-align: center;
-  color: #e2e7e2;
+  color: #f3efd6;
 }
 /*styles the navigation elements*/
 .nav-link {
@@ -27,7 +27,7 @@ footer {
   margin: 0px;
   font-size: 18px;
   background-color: #241427;
-  color: #e2e7e2;
+  color: #f3efd6;
 }
 /*displays the li elements in the anchor tags to be inline blocks so they sit beside each other in the nav bar*/
 .nav-link li {
@@ -36,8 +36,8 @@ footer {
 }
 /*allows the element to change colours when the user hovers over it*/
 .nav-link:hover {
-  background: #e2e7e2;
-  color: #100811;
+  background: #acc524;
+  color: #271e0d;
 }
 /*exra styling for the main header*/
 h1 {
@@ -51,4 +51,7 @@ ul {
   padding: 2px;
   background-color: #241427;
   list-style-type: none;
+}
+figure {
+  font-size: 16px;
 }
