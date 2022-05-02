@@ -25,38 +25,62 @@ footer {
 }
 /*styles the navigation elements*/
 .nav-link {
+  /* adds padding to the text*/
   padding: 10px;
+  /* adds no margin*/
   margin: 0px;
+  /*makes the font size 20*/
   font-size: 20px;
+  /*changes the background colour of the nav bar links*/
   background-color: #241427;
+  /*changes the font colour of the navbar links*/
   color: #f3efd6;
 }
 /*displays the li elements in the anchor tags to be inline blocks so they sit beside each other in the nav bar*/
 .nav-link li {
+  /*adds a margin */
   margin: 9px;
+  /*displays as an inline block*/
   display: inline-block;
 }
 /*allows the element to change colours when the user hovers over it*/
 .nav-link:hover {
+  /*changes the background colour*/
   background: #acc524;
+  /*changes the text colour*/
   color: #271e0d;
 }
 /*exra styling for the main header*/
 h1 {
+  /* changes the font size to be 2 times as big as the main text size*/
   font-size: 40px;
+  /* changes the text to show up as all uppercase*/
   text-transform: uppercase;
+  /* adds paddnig to the text*/
   padding: 20px;
+  /*adds no margin to the heading*/
   margin: 0;
+  /* aligns the text to the center of the screen*/
   text-align: center;
 }
-/* styles the background of the nav bar and makes the list stle none so there are no bullet points*/
+/* styles the background of the nav bar */
 ul {
+  /*adds padding to all the text inside the list*/
   padding: 2px;
+  /*this chaged the backkground colour to a neutral colour*/
   background-color: #241427;
+  /*this makes the list have no bullet points*/
   list-style-type: none;
 }
+/*basic styling for all the figures on the website*/
 figure {
+  /*
+  this displays the figure as an inline block which would allow it to have borders and stuff around 
+  just the fu=igure instead of the whole width of the screen
+  */
   display: inline-block;
+  /*this changes the text to be italicized for the fig caption*/
   font-style: italic;
+  /*this changes the font size of the fig caption to be smallest size on the entire website*/
   font-size: 16px;
 }
