@@ -1,26 +1,40 @@
 /*simple body styling*/
 body {
+  /*adds no argin to the bodyso it takes up the whole space on the webpage */
   margin: 0px;
+  /*changes the background colour to a neutral colour*/
   background-color: #f3efd6;
+  /*changes the font colour of everything in the body*/
   color: #271e0d;
+  /*changes the font size */
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 28px;
 }
 /*styling and what makes the header take up all the screen width*/
 header {
+  /*changes the background colour for the header*/
   background-color: #432739;
+  /*allows for the header to take up the whole width of the screen even when it resizes*/
   width: 100%;
+  /*changes the font colour for everything inside the header*/
   color: #f3efd6;
 }
 /*styling for the footer and so it takes up the full screen width*/
 footer {
+  /*changes the colour of the footer*/
   background-color: #432739;
+  /*changes the font size in the footer to 18px*/
   font-size: 18px;
+  /*allows for the footer to take up the whole witdth of the screen even when it resizes*/
   width: 100%;
+  /*adds padding to the content */
   padding: 8 px;
+  /*adds no margin to the elemnt */
   margin: 0px;
+  /*aligns the text to the center*/
   text-align: center;
+  /*changes the font colour of the footer */
   color: #f3efd6;
 }
 /*styles the navigation elements*/
@@ -65,8 +79,8 @@ h1 {
 }
 /* styles the background of the nav bar */
 ul {
-  /*adds padding to all the text inside the list*/
-  padding: 2px;
+  /*adds no padding to all the text inside the list*/
+  padding: 0px;
   /*this chaged the backkground colour to a neutral colour*/
   background-color: #241427;
   /*this makes the list have no bullet points*/
