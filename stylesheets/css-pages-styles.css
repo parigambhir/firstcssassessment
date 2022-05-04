@@ -1,6 +1,9 @@
+/*
+  I chose to use the purple colour family. I chose this colour because it is represents creative, imaginitive and wise and since this is a portfolio for a creative and imaginitive person this works in that way and also that if its a portfolio it has to have some sort of like mature and elegant feel so thats why I chose to use the purple colour family(also the client like purple so that also went into consideration)]
+*/
 /*simple body styling*/
 body {
-  /*adds no argin to the bodyso it takes up the whole space on the webpage */
+  /*adds no argin to the body so it takes up the whole space on the webpage */
   margin: 0px;
   /*changes the background colour to a neutral colour*/
   background-color: #f3efd6;
@@ -8,7 +11,9 @@ body {
   color: #271e0d;
   /*changes the font size */
   font-size: 20px;
+  /*the font style will follow this order if the first font isnt available on a certain browser*/
   font-family: Georgia, "Times New Roman", Times, serif;
+  /*adds space in between lines to make text more readable*/
   line-height: 28px;
 }
 /*styling and what makes the header take up all the screen width*/
@@ -97,4 +102,16 @@ figure {
   font-style: italic;
   /*this changes the font size of the fig caption to be smallest size on the entire website*/
   font-size: 16px;
+}
+/*basic styling for h2 headers on all pages*/
+h2 {
+  /*aligns the text to the center of the screen*/
+  text-align: center;
+  font-size: 32px;
+}
+/*basic styling for h3 header on all pages*/
+h3 {
+  /*aligns the text to the center of the screen*/
+  text-align: center;
+  font-size: 25px;
 }
