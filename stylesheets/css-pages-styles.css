@@ -24,6 +24,9 @@ header {
   width: 100%;
   /*changes the font colour for everything inside the header*/
   color: #f3efd6;
+  /* changes the position of the element to sticky and the 0px added to the top allows it to stay at the top of the webpage */
+  position: sticky;
+  top: 0px;
 }
 /*styling for the footer and so it takes up the full screen width*/
 footer {
@@ -41,6 +44,8 @@ footer {
   text-align: center;
   /*changes the font colour of the footer */
   color: #f3efd6;
+  position: relative;
+  bottom: 0px;
 }
 /*styles the navigation elements*/
 .nav-link {
