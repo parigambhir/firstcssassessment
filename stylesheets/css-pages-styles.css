@@ -107,6 +107,10 @@ figure {
   font-style: italic;
   /*this changes the font size of the fig caption to be smallest size on the entire website*/
   font-size: 16px;
+  background-color: #a48786;
+  border: #432739 solid 8px;
+  border-radius: 5px;
+  padding: 5px;
 }
 /*basic styling for h2 headers on all pages*/
 h2 {
