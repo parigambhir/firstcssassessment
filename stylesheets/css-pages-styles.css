@@ -27,6 +27,7 @@ header {
   /* changes the position of the element to sticky and the 0px added to the top allows it to stay at the top of the webpage */
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 /*styling for the footer and so it takes up the full screen width*/
 footer {
@@ -45,7 +46,7 @@ footer {
   /*changes the font colour of the footer */
   color: #f3efd6;
   position: relative;
-  bottom: 0px;
+  top: 100%;
 }
 /*styles the navigation elements*/
 .nav-link {
@@ -111,6 +112,8 @@ figure {
   border: #432739 solid 8px;
   border-radius: 5px;
   padding: 5px;
+  position: relative;
+  left: 25%;
 }
 /*basic styling for h2 headers on all pages*/
 h2 {

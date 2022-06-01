@@ -18,7 +18,7 @@
       /* an ID that centers the introduction paragraph and makes it bigger*/
       #intro-p {
         font-size: 22px;
-        float: right;
+        text-align: center;
       }
       /*Allows for there to be 3 collumns side by side (#row ID is what actually makes the divs go side by side) and then styling for the columns*/
       .column {
@@ -39,10 +39,21 @@
         display: table;
         clear: both;
       }
+      /* makes the columns responisve which allows them to resize and stack ontop of eachother */
+      @media screen and (max-width: 1400px) {
+        .column {
+          width: 100%;
+        }
+      }
       /* mostly text decoration for the buttons*/
       button {
-        text-decoration: bold;
-        color: #381f3d;
+        background-color: #432739;
+        color: #f3efd6;
+        font-size: 16px;
+      }
+      button:hover {
+        background-color: #acc524;
+        color: #271e0d;
       }
     </style>
   </head>
@@ -64,6 +75,11 @@
     <main>
       <section>
         <h2>Welcome to Shaanze Noors website!</h2>
+        <p id="intro-p">
+          Here you will find all of Shaanze Noor's hoobies and interest from
+          creating art to their fashion taste & style!<br />
+          Scroll down to see more about their hobbies and interests.
+        </p>
         <figure>
           <img
             src="images/shaanzestickman.jpg"
@@ -73,11 +89,6 @@
             A stickfigure drawing of Shaanze Noor. Drawing Credit: Pari Gambhir
           </figcaption>
         </figure>
-        <p id="intro-p">
-          Here you will find all of Shaanze Noor's hoobies and interest from
-          creating art to their fashion taste & style!<br />
-          Scroll down to see more about their hobbies and interests.
-        </p>
       </section>
       <br />
       <br />
@@ -105,7 +116,7 @@
             Shaanze Noor loves to create art and has since an early age. Click
             the button below to learn more about Shaanze and art.
           </p>
-          <button class="button-link">Click Here</button>
+          <button class="button-link" href="">Click Here</button>
         </div>
       </section>
       <br />
