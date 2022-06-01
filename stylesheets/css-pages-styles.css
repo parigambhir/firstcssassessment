@@ -35,10 +35,8 @@ footer {
   background-color: #432739;
   /*changes the font size in the footer to 18px*/
   font-size: 18px;
-  /*allows for the footer to take up the whole witdth of the screen even when it resizes*/
-  width: 100%;
   /*adds padding to the content */
-  padding: 8 px;
+  padding: 2px;
   /*adds no margin to the elemnt */
   margin: 0px;
   /*aligns the text to the center*/
